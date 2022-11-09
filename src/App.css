@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+
+
+
+ul{
+  list-style: none;
+}
+.contain{
+  
+  height: 100vh;
+  background-color: #04192e;
+  padding-top: 15vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-size: 35px;
+  color:  #fff;
+}
+.todoDiv{
+  background-color:#052c54;
+  max-width: 20%;
+  padding: 20px;
+  border-radius: 6px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputF:focus{
+  /* height: 40px; */
+  outline: none
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inp_div{
+  background-color: #fff;
+  border-radius: 5px;  
+  border:1px solid #0d033c;
+
 }
 
-.App-link {
-  color: #61dafb;
+.plus{
+  margin-left: 11px
+}
+.plus, .minicon{
+  font-size: 20px;
+  font-weight: 700;
+  /* height: */
+  cursor: pointer;
+}
+.plus:hover, .minicon:hover{
+  background-color: #fff;
+  border-radius: 50px;
+  color: #0d033c;
+}
+.plus:hover{
+  background-color: #0d033c;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lists{
+  border-radius: 6px;
+  background-color: #0d033c;
+  color: #fff
 }
+
+.editList{
+  font-size: 15px !important;
+  cursor: pointer;
+}
+
+button{
+  border-radius: 3px;
+
+}
+
+.addList{
+    margin-left: 10px;
+    font-size: 32px !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn.btn-outline-light{
+    display: none;
+
+}
+
+.btn.activ{
+  display: block;
+
+}
+
+
